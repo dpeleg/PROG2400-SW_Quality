@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Blacksmith's Quest</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-layout">
+        <div id="game-container">
+            <div id="story-text"></div>
+            <!-- Slider will be inserted here programmatically when needed -->
+            <div id="choices"></div>
+        </div>
+        <div id="status-panel">
+            <h2>Inventory List</h2>
+            <div class="status-item">
+                <label>Weapon:</label>
+                <span id="current-weapon">None</span>
+            </div>
+            <div class="status-item">
+                <label>Gold:</label>
+                <span id="current-gold">0</span>
+            </div>
+            <div class="status-item">
+                <label>Items:</label>
+                <ul id="inventory-list"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
